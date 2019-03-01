@@ -33,13 +33,12 @@ MNIST数据集说明如下：<br>
 </table>
 
 下面的代码会给出如何载入MNIST数据集，如果指定地址下没有下载好的数据，那么tf会自动从上表中的地址下载<br>
-```
+`
 from tensorflow.examples.tutorials.mnist import input_data
 
 mnist=input_data.read_data_sets("/home/xuhejun/data/mnist/",one_hot=True)    
 
-print("Training data size: ",mnist.train.num_examples)
-```//python
+print("Training data size: ",mnist.train.num_examples)`
 
 代码说明：<br>
 通过input_data.read_data_sets函数生成的类会自动将MNIST数据集划分为train、validation和test三个数据集<br>
