@@ -34,7 +34,7 @@ MNIST数据集说明如下：<br>
 
 下面的代码会给出如何载入MNIST数据集，如果指定地址下没有下载好的数据，那么tf会自动从上表中的地址下载<br>
 
-```
+```//python
 from tensorflow.examples.tutorials.mnist import input_data
 
 mnist=input_data.read_data_sets("/home/xuhejun/data/mnist/",one_hot=True)    
