@@ -42,9 +42,13 @@ print("Training data size: ",mnist.train.num_examples)`
 
 代码说明：<br>
 通过input_data.read_data_sets函数生成的类会自动将MNIST数据集划分为train、validation和test三个数据集<br>
+
 其中train这个集合内有55000张图片，validation这个数据集中有5000张图片，test这个数据集中有10000张图片<br>
 
 该项目总共分为3个.py文件，分别是mnist_inference.py、mnist_train.py、mnist_eval.py<br>
+
 mnist_inference.py文件定义了前向传播得过程以及神经网络中的参数<br>
+
 mnist_train.py文件定义了神经网络的训练过程<br>
+
 mnist_eval.py文件定义测试过程<br>
