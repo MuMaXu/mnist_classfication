@@ -1,4 +1,3 @@
-```python
 import tensorflow as tf
 
 # 定义神经网络结构相关的参数
@@ -39,5 +38,3 @@ def inference(input_tensor, regularizer):
 
     # 返回前向传播的结果
     return layer2
-
-```
