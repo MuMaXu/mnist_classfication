@@ -1,5 +1,5 @@
 # mnist_classfication
-##mnist_classfication using Tensorflow<br>
+## mnist_classfication using Tensorflow<br>
 
 这是我的第一个GitHub的项目，也是一个最基础的项目，作为我GitHub之旅的开端<br>
 
