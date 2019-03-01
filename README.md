@@ -1,3 +1,1 @@
-# mnist_classfication
-mnist_classfication using Tensorflow
-关于代码中几点重要的说明，也当是一个知识的复习回顾
+#mnist_classfication
